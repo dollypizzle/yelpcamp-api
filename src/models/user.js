@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
-const validator = require('validator');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const Campground = require('./campground');
+
 
 const userSchema = new mongoose.Schema(
   {
