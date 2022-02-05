@@ -18,7 +18,7 @@ router.post('/campgrounds', auth, async (req, res) => {
   }
 });
 
-////Get all the campgrounds from db
+//Get all the campgrounds from db
 router.get('/campgrounds', (req, res) => {
   Campground.find({}, function(err, campgrounds) {
     if (err) {
